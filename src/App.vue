@@ -134,7 +134,7 @@ onMounted(() => {
             @click="resetRound"
             class="bg-pink-500 text-lg py-2 px-4 w-32 rounded-full h-32 transition-colors duration-500 hover:bg-yellow-50 hover:text-black"
           >
-            Again
+            Play again
           </button>
           <button
             @click="deleteScore"
