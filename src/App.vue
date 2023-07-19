@@ -104,19 +104,19 @@ onMounted(() => {
       >
         <button
           @click="play('rock')"
-          class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-pink-500 max-[1000px]:w-52 mb-2"
+          class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-pink-500 max-[1000px]:w-40 mb-2 max-[1000px]:p-6"
         >
-          <img src="./assets/RockIcon.svg" alt="Rock" class="w-full" />
+          <img src="./assets/RockIcon.svg" alt="Rock" class="object-cover" />
         </button>
         <button
           @click="play('paper')"
-          class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-green-500 max-[1000px]:w-52 mb-2"
+          class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-green-500 max-[1000px]:w-40 mb-2 max-[1000px]:p-6"
         >
           <img src="./assets/PaperIcon.svg" alt="Rock" class="w-full" />
         </button>
         <button
           @click="play('scissors')"
-          class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-yellow-500 max-[1000px]:w-52 mb-2"
+          class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-yellow-500 max-[1000px]:w-40 mb-2 max-[1000px]:p-6"
         >
           <img src="./assets/ScissorsIcon.svg" alt="Rock" class="w-full" />
         </button>
