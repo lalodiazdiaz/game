@@ -123,10 +123,11 @@ onMounted(() => {
       </div>
       <div v-else>
         <div class="text-3xl mb-4">
-          You picket <span class="text-pink-500"> {{ choice }}</span>
+          You chose <span class="text-pink-500"> {{ choice }}</span>
         </div>
         <div class="text-3xl mb-4">
-          You picket <span class="text-green-500"> {{ computerChoise }}</span>
+          The computer chose
+          <span class="text-green-500"> {{ computerChoise }}</span>
         </div>
         <div class="text-6xl mb-12 animate-pulse">{{ veredict }}</div>
         <div class="flex w-full justify-around">
