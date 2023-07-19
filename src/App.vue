@@ -29,7 +29,6 @@ const outcomes = {
 
 const winPercentage = computed(() => {
   const total = wins.value + draws.value + losses.value;
-  console.log(total);
   return total ? (wins.value / total) * 100 : 0;
 });
 const play = (c) => {
@@ -122,7 +121,7 @@ onMounted(() => {
           <img src="./assets/ScissorsIcon.svg" alt="Rock" class="w-full" />
         </button>
       </div>
-      <div v-else >
+      <div v-else>
         <div class="text-3xl mb-4">
           You picket <span class="text-pink-500"> {{ choice }}</span>
         </div>
